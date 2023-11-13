@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "enmories",
+    "description": "엔트리 모든 작품 비공개 처리, 이제는 추억을 놓아줄 때가 왔습니다...",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://playentry.org/*"
+            ],
+            "js": [
+                "index.js"
+            ]
+        }
+    ]
+}
